@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FBISE HSSC-I Notes | Physics, Chemistry & Biology</title>
+  <meta name="description" content="Download FBISE HSSC-I notes for 1st Year Physics, Chemistry, and Biology. Get topical notes, book exercises, and solved past papers to prepare effectively." />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #eef2f3, #f9fbfd);
+      color: #333;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #005fa3;
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #0077cc;
+      margin-top: 40px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+
+    .main-button, .sub-button {
+      display: block;
+      width: 260px;
+      margin: 12px auto;
+      padding: 14px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .main-button:hover, .sub-button:hover {
+      background-color: #005fa3;
+    }
+
+    .sub-buttons {
+      display: none;
+      margin-bottom: 20px;
+    }
+
+    .visible {
+      display: block;
+    }
+
+    .subject-section {
+      margin-bottom: 50px;
+    }
+
+    .section-description {
+      margin-top: -15px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    ul {
+      text-align: left;
+      margin: 20px auto;
+      max-width: 700px;
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      text-align: center;
+      color: #999;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>FBISE HSSC-I Notes Portal</h1>
+
+  <p>
+    Welcome to the #1 online resource for <strong>FBISE HSSC-I (1st Year) notes</strong> — made specifically for Pakistani students following the Federal Board curriculum. Whether you are preparing for a class test, board exams, or just reviewing chapters, we provide organized, exam-focused study materials that will help you succeed.
+  </p>
+
+  <p>
+    On this page, you’ll find categorized notes for <strong>Physics</strong>, <strong>Chemistry</strong>, and <strong>Biology</strong>. We include chapter-wise topical notes, solved textbook exercises, and past papers with fully explained solutions.
+  </p>
+
+  <h2>Available Notes & Resources</h2>
+  <ul>
+    <li><strong>Topical Notes:</strong> Easy-to-read summaries of each chapter, including key points, formulas, and diagrams.</li>
+    <li><strong>Book Exercises:</strong> Complete solutions to textbook questions provided by the FBISE curriculum.</li>
+    <li><strong>Solved Past Papers:</strong> FBISE exam papers from recent years, with model answers and marking schemes.</li>
+  </ul>
+
+  <!-- Physics Section -->
+  <div class="subject-section">
+    <button class="main-button" onclick="toggleSection('physics')">📘 Physics</button>
+    <p class="section-description">Explore Physics notes covering all topics, numericals, and concept explanations.</p>
+    <div id="physics" class="sub-buttons">
+      <button class="sub-button">Topical Notes</button>
+      <button class="sub-button">Book Exercises</button>
+      <button class="sub-button">Solved Past Papers</button>
+    </div>
+  </div>
+
+  <!-- Chemistry Section -->
+  <div class="subject-section">
+    <button class="main-button" onclick="toggleSection('chemistry')">🧪 Chemistry</button>
+    <p class="section-description">Study Chemistry with easy-to-follow notes, reaction mechanisms, and MCQ preparation.</p>
+    <div id="chemistry" class="sub-buttons">
+      <button class="sub-button">Topical Notes</button>
+      <button class="sub-button">Book Exercises</button>
+      <button class="sub-button">Solved Past Papers</button>
+    </div>
+  </div>
+
+  <!-- Biology Section -->
+  <div class="subject-section">
+    <button class="main-button">🧬 Biology</button>
+    <p class="section-description">Access Biology notes including labeled diagrams, definitions, and key short questions.</p>
+    <!-- You can add sub-buttons here in the future -->
+  </div>
+
+  <h2>Why Use Our Notes?</h2>
+  <p>
+    These notes are prepared by top-performing students and experienced teachers, aligned with the latest FBISE syllabus. They help you:
+  </p>
+  <ul>
+    <li>✔️ Understand complex concepts easily</li>
+    <li>✔️ Save time in revision</li>
+    <li>✔️ Practice with real exam questions</li>
+    <li>✔️ Improve grades in board exams</li>
+  </ul>
+
+  <footer>
+    <p>© 2025 FBISE HSSC-I Notes | Built by Students, for Students</p>
+    <p>Made with ❤️ in Pakistan | Last updated: July 2025</p>
+  </footer>
+
+  <script>
+    function toggleSection(id) {
+      const section = document.getElementById(id);
+      const isVisible = section.classList.contains('visible');
+      document.querySelectorAll('.sub-buttons').forEach(div => div.classList.remove('visible'));
+      if (!isVisible) {
+        section.classList.add('visible');
+      }
+    }
+  </script>
+
+</body>
+</html>
